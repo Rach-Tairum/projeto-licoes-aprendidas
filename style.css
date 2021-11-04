@@ -9,11 +9,12 @@ body {
     right: 0px;
     left: 0px;
     padding: 10px 5px;
+    z-index: 1;
 }
 
 #titulo {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(60, 255, 0);
     font-family: sans-serif;
 }
@@ -26,7 +27,7 @@ body {
 
 #indice li {
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 12pt;
 }
 /* Alterando a cor do link no CSS referência do auxílio: https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
@@ -35,3 +36,14 @@ nav ul li a {
     color: white;
     font-family: monospace;
 }
+main{
+    z-index: 2;
+   top: 300px;
+   margin-top: 200px;
+}
+
+#minha_foto{
+    width: 250px;
+    border-radius: 10%;
+}
+
