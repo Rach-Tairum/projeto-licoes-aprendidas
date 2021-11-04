@@ -4,6 +4,34 @@ body {
 
 #cabecalho {
     position: fixed;  
-    top: 0px;  
+    top: 0px; 
+    background-color: darkgreen;
+    right: 0px;
+    left: 0px;
+    padding: 10px 5px;
 }
 
+#titulo {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(60, 255, 0);
+    font-family: sans-serif;
+}
+
+#indice {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+#indice li {
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 12pt;
+}
+/* Alterando a cor do link no CSS referência do auxílio: https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
+
+nav ul li a {
+    color: white;
+    font-family: monospace;
+}
