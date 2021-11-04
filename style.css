@@ -9,7 +9,6 @@ body {
     right: 0px;
     left: 0px;
     padding: 10px 5px;
-    z-index: 1;
 }
 
 #titulo {
@@ -30,8 +29,9 @@ body {
     margin-top: 15px;
     font-size: 12pt;
 }
-/* Alterando a cor do link no CSS referência do auxílio: https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
 
+/* Alterando a cor do link no CSS, referência: 
+https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
 nav ul li a {
     color: white;
     font-family: monospace;
@@ -47,3 +47,20 @@ main{
     border-radius: 10%;
 }
 
+.licoes{
+    display: inline-block;
+    padding: 40px 90px;
+}
+
+#artigo{
+    display: inline-block;
+    border: 3px solid black;
+    margin-right: 900px;
+}
+
+#barra_lateral {
+    
+    border: 3px solid black;
+    margin-right: 900px;
+    overflow: auto;
+}
