@@ -1,86 +1,86 @@
 body {
-    background-color: rgb(253, 251, 251);  
+        background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed; 
-    top: 0px; 
-    background-color: darkgreen;  
-    right: 0px;  
-    left: 0px;  
-    padding: 5px;  
-}
+            position: fixed;
+            top: 0px;
+            background-color: darkgreen;
+            right: 0px;
+            left: 0px;
+            padding: 5px;
+        }
 
 #titulo {
-    text-align: center;  
-    font-size: 30px;  
-    color: rgb(60, 255, 0);  
-    font-family: sans-serif;  
+        text-align: center;
+        font-size: 30px;
+        color: rgb(60, 255, 0);
+        font-family: sans-serif;
 }
 
 #indice {
-    display: flex;  
-    list-style: none;  
-    padding: 0px;  
-    margin: 0px;  
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
 }
 
 #indice li {
-    padding: 15px;  
-    margin-top: 15px;  
-    font-size: 12pt;  
+            padding: 15px;
+            margin-top: 15px;
+            font-size: 12pt;
 }
 
 /* Alterando a cor do link no CSS, referência: 
 https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
 nav ul li a {
-    color: white;  
-    font-family: monospace;  
+            color: white;
+            font-family: monospace;
 }
 main { 
-   top: 300px;  
-   margin-top: 180px;  
+        top: 300px;
+        margin-top: 180px;
 }
 
 #minha_foto {
-    width: 250px;  
-    border-radius: 10%;  
+            width: 250px;
+            border-radius: 10%;
 }
 
 .licoes {
-    display: inline-block;  
-    padding: 40px 30px;  
-    font-family: sans-serif;  
-}
+            display: inline-block;
+            padding: 40px 30px;
+            font-family: sans-serif;
+    }
 
 li {
-    line-height: 30px;  
+            line-height: 30px;
 }
 
-h2, h3 {
-    color: rgb(105, 61, 29);  
+h2 , h3 {
+            color: rgb(105, 61, 29);
 }
 
 h3 {
-    font-size: 16pt;  
+            font-size: 16pt;
 }
 
 .lado-esquerdo {
-    width: 500px;  
-    border: 3px solid black;  
-    display: inline-block;  
-    padding: 10px;  
-    text-align: justify;      
+            width: 500px;
+            border: 3px solid black;
+            display: inline-block;
+            padding: 10px;
+            text-align: justify;
 }
 
 .lado-direito {
-    border: 3px solid black;  
-    display: inline-block;  
-    width: 400px;  
-    padding: 10px;  
-    text-align: justify;  
+            border: 3px solid black;
+            display: inline-block;
+            width: 400px; 
+            padding: 10px;
+            text-align: justify;
 }
 
 #bloco1 {
-    padding-right: 200px;  
+            padding-right: 200px;
 }
