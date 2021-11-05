@@ -8,20 +8,21 @@ body {
     background-color: darkgreen;
     right: 0px;
     left: 0px;
-    padding: 10px 5px;
+    padding: 5px;
 }
 
 #titulo {
     text-align: center;
     font-size: 30px;
     color: rgb(60, 255, 0);
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 
 #indice {
     display: flex;
     list-style: none;
     padding: 0px;
+    margin: 0px;
 }
 
 #indice li {
@@ -39,7 +40,7 @@ nav ul li a {
 main{
     z-index: 2;
    top: 300px;
-   margin-top: 200px;
+   margin-top: 180px;
 }
 
 #minha_foto{
@@ -49,7 +50,7 @@ main{
 
 .licoes{
     display: inline-block;
-    padding: 40px 90px;
+    padding: 40px 30px;
     font-family: sans-serif;
 }
 
@@ -66,13 +67,21 @@ h3{
 }
 
 #artigo{
+    width: 500px;
     border: 3px solid black;
     display: inline-block;
+    padding: 10px;
+    text-align: justify;    
 }
 
 #barra_lateral {
-    float: right;
     border: 3px solid black;
-    margin-left: 900px;
-   
+    display: inline-block;
+    width: 400px;
+    padding: 10px; 
+    text-align: justify;
+}
+
+#bloco1{
+    padding-right: 200px;
 }
