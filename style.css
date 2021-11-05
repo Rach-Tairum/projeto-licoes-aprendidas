@@ -31,13 +31,13 @@ body {
             font-size: 12pt;
 }
 
-/* Alterando a cor do link no CSS, referência: 
+/* Alterando a cor do link no CSS, referência:
 https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
 nav ul li a {
             color: white;
             font-family: monospace;
 }
-main { 
+main {
         top: 300px;
         margin-top: 180px;
 }
@@ -76,7 +76,7 @@ h3 {
 .lado-direito {
             border: 3px solid black;
             display: inline-block;
-            width: 400px; 
+            width: 400px;
             padding: 10px;
             text-align: justify;
 }
