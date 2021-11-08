@@ -4,10 +4,10 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: rgb(8, 136, 8);
-  right: 0px;
-  left: 0px;
+  right: 0;
+  left: 0;
 }
 
 #titulo {
@@ -22,8 +22,8 @@ body {
 #indice {
   display: flex;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-color: rgb(70, 187, 70);
 }
 
@@ -35,10 +35,12 @@ body {
 
 /* Alterando a cor do link no CSS, referência:
 https://cursos.alura.com.br/forum/topico-mudar-a-cor-de-links-via-css-20417 */
+
 nav ul li a {
   color: white;
   font-family: monospace;
 }
+
 main {
   top: 300px;
   margin-top: 180px;
@@ -60,8 +62,7 @@ li {
   line-height: 30px;
 }
 
-h2,
-h3 {
+h2 , h3 {
   color: rgb(11, 110, 33);
   font-weight: 900;
 }
