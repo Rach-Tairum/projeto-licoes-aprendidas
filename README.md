@@ -1,4 +1,7 @@
    ## Projeto Lessons Learned
+   
+Este foi meu primeiro projeto desenvolvido quanto estudante de desenvolvimento web, nele, o objetivo era desenvolver uma página HTML simples e CSS básico em que essa página conteria um header, uma foto de perfil, caracteristicas sobre mim, as lições aprendidas até ali no curso e as lições ainda a serem aprendidas e por fim um footer que conteria os direitos de quem fez o site.
+
 
 ## Habilidades Desenvolvidas
 
@@ -11,5 +14,4 @@ Neste projeto, fui capaz de :
 
 ## O que foi desenvolvido:
 
-Nestee projeto foi desenvolvido um site em HTML com os conteúdos que aprendi até o momento na Trybe ao longo do primeiro mês de curso, além de conhecimentos que seriam aprendidos ao longo do curso. Ainda, foi relizada a estilização em CSS do mesmo.
-
+![Gravação-de-tela-de-17-02-2022-10_17_38](https://user-images.githubusercontent.com/93009735/162747973-57e29062-7d6c-4a4a-a7f1-ee9990bd41ca.gif)
